@@ -729,7 +729,15 @@
       font-weight: 700;
       flex-shrink: 0;
     }
-
+    
+    .cliente {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  margin-top: 8px;
+}
     /* Responsivo */
     @media (max-width: 600px) {
       .plan-card.featured {
